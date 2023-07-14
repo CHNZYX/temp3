@@ -1,0 +1,50 @@
+*{padding:0px; margin:0px;}
+h1,h2,h3,h4,h5,h6,b{ font-weight:normal; font-size:100%;}
+input,select,button,textarea{vertical-align:middle;line-height:normal;font-size:100%;}
+textarea{line-height:100%;} 
+a{outline:0;cursor:pointer;*star:expression(this.onFocus=this.blur()); text-decoration:none; color:#444;}
+input:focus,select:focus,textarea:focus,button:focus{outline:none;}
+table{border-spacing:1;}
+img{border:0;}
+ul,li{list-style:none;}
+em,i{font-style:normal;}
+p{word-break:break-all;text-justify:inter-ideograph; line-height:160%em;}
+p{ font-size:14px; line-height:200%;}
+.fl{float:left;}
+.fl2{margin-left:10%}
+.fr{float:right;}
+.tCen{ text-align:center;}
+.clear{clear:both;} 
+.hd{ overflow:hidden;}
+.block{ display:block;}
+.none{ display:none;}
+a {color: #666;-webkit-transition: 0.6s ease;-moz-transition: 0.6s ease;text-decoration: none;}
+a:hover { color:#9E6C9D; -webkit-transition: 0.6s ease;-moz-transition: 0.6s ease;}
+::-webkit-input-placeholder { /* WebKit browsers */color: #bbb;}
+::-moz-placeholder { /* Mozilla Firefox 19+ */color: #bbb; }
+:-ms-input-placeholder { /* Internet Explorer 10+ */ color: #bbb;}
+img{ max-width:100%; transition: all 0.6s;}
+
+body{ background:#ff576b;}
+#main{ margin:0% auto 0;width:640px; font-size:1.2em; position:relative;}
+.boxshow{ margin:-50px 0 20px;}
+.ab2{ width:338px; margin:0 auto;}
+.ab3{ width:338px; margin:10px auto 0; text-align:center; padding-top:30px;}
+.bg1{ background:url(img/j0.png) no-repeat; background-size:100% 100%; height:120px;}
+.bg2{ background:url(img/j1.png) no-repeat; background-size:100% 100%; height:120px;}
+.bg3{ background:url(img/j2.png) no-repeat; background-size:100% 100%; height:120px;}
+.bg4{ background:url(img/j3.png) no-repeat; background-size:100% 100%; height:120px;}
+.bg5{ background:url(img/j4.png) no-repeat; background-size:100% 100%; height:120px;}
+.bg6{ background:url(img/j5.png) no-repeat; background-size:100% 100%; height:120px;}
+.ab3 .im1 span{ height:40px; line-height:40px; display:inline-block; margin:0 auto; font-weight:bold; text-align:center; font-size:1.1em; color:#ff567b;}
+.ab3 .im2 img{ height:43px; margin-top:35px;}
+.ab3 .im3{ margin-top:3px; color:#aaa; font-size:0.9em}
+
+
+.fotimg{ position:absolute; bottom:0; left:0; text-align:center; width:100%;}
+.fotimg img{ height:70px;}
+
+.logo{ text-align:center; margin-bottom:20px;}
+@media only screen and (min-width:240px) and (max-width: 640px){
+	#main{ margin:0;	width:100%;}
+}
